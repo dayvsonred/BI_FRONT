@@ -39,20 +39,57 @@ export const navItems: NavData[] = [
       text: 'NEW'
     }
   },
+
   {
     title: true,
-    name: 'Theme'
+    name: 'Movimentos de Caixa'
   },
   {
-    name: 'Colors',
-    url: '/theme/colors',
+    name: 'Resumo',
+    url: '/caixa/resumo',
+    icon: 'icon-wallet'
+  }, 
+  {
+    name: 'Saldos Inicial',
+    url: '/caixa/saldo_Inicial',
+    icon: 'icon-control-play'
+  }, 
+  {
+    name: 'Pagamentos',
+    url: '/caixa/pagamentos',
+    icon: 'icon-basket-loaded'
+  }, 
+  {
+    name: 'Recebimentos',
+    url: '/caixa/recebimentos',
+    icon: 'icon-credit-card'
+  }, 
+  {
+    title: true,
+    name: 'Cadastro'
+  },
+  {
+    name: 'Empresa',
+    url: '/cadastro/empresa',
     icon: 'icon-drop'
   },
-  {
-    name: 'Typography',
-    url: '/theme/typography',
-    icon: 'icon-pencil'
-  },
+
+
+
+  // {
+  //   title: true,
+  //   name: 'Theme'
+  // },
+  // {
+  //   name: 'Colors',
+  //   url: '/theme/colors',
+  //   icon: 'icon-drop'
+  // },
+  // {
+  //   name: 'Typography',
+  //   url: '/theme/typography',
+  //   icon: 'icon-pencil'
+  // },
   {
     title: true,
     name: 'Components'
@@ -119,28 +156,28 @@ export const navItems: NavData[] = [
       }
     ]
   },
-  {
-    name: 'Buttons',
-    url: '/buttons',
-    icon: 'icon-cursor',
-    children: [
-      {
-        name: 'Buttons',
-        url: '/buttons/buttons',
-        icon: 'icon-cursor'
-      },
-      {
-        name: 'Dropdowns',
-        url: '/buttons/dropdowns',
-        icon: 'icon-cursor'
-      },
-      {
-        name: 'Brand Buttons',
-        url: '/buttons/brand-buttons',
-        icon: 'icon-cursor'
-      }
-    ]
-  },
+  // {
+  //   name: 'Buttons',
+  //   url: '/buttons',
+  //   icon: 'icon-cursor',
+  //   children: [
+  //     {
+  //       name: 'Buttons',
+  //       url: '/buttons/buttons',
+  //       icon: 'icon-cursor'
+  //     },
+  //     {
+  //       name: 'Dropdowns',
+  //       url: '/buttons/dropdowns',
+  //       icon: 'icon-cursor'
+  //     },
+  //     {
+  //       name: 'Brand Buttons',
+  //       url: '/buttons/brand-buttons',
+  //       icon: 'icon-cursor'
+  //     }
+  //   ]
+  // },
   {
     name: 'Charts',
     url: '/charts',
@@ -181,28 +218,28 @@ export const navItems: NavData[] = [
       }
     ]
   },
-  {
-    name: 'Notifications',
-    url: '/notifications',
-    icon: 'icon-bell',
-    children: [
-      {
-        name: 'Alerts',
-        url: '/notifications/alerts',
-        icon: 'icon-bell'
-      },
-      {
-        name: 'Badges',
-        url: '/notifications/badges',
-        icon: 'icon-bell'
-      },
-      {
-        name: 'Modals',
-        url: '/notifications/modals',
-        icon: 'icon-bell'
-      }
-    ]
-  },
+  // {
+  //   name: 'Notifications',
+  //   url: '/notifications',
+  //   icon: 'icon-bell',
+  //   children: [
+  //     {
+  //       name: 'Alerts',
+  //       url: '/notifications/alerts',
+  //       icon: 'icon-bell'
+  //     },
+  //     {
+  //       name: 'Badges',
+  //       url: '/notifications/badges',
+  //       icon: 'icon-bell'
+  //     },
+  //     {
+  //       name: 'Modals',
+  //       url: '/notifications/modals',
+  //       icon: 'icon-bell'
+  //     }
+  //   ]
+  // },
   {
     name: 'Widgets',
     url: '/widgets',
@@ -246,29 +283,29 @@ export const navItems: NavData[] = [
       }
     ]
   },
-  {
-    name: 'Disabled',
-    url: '/dashboard',
-    icon: 'icon-ban',
-    badge: {
-      variant: 'secondary',
-      text: 'NEW'
-    },
-    attributes: { disabled: true },
-  },
-  {
-    name: 'Download CoreUI',
-    url: 'http://coreui.io/angular/',
-    icon: 'icon-cloud-download',
-    class: 'mt-auto',
-    variant: 'success',
-    attributes: { target: '_blank', rel: 'noopener' }
-  },
-  {
-    name: 'Try CoreUI PRO',
-    url: 'http://coreui.io/pro/angular/',
-    icon: 'icon-layers',
-    variant: 'danger',
-    attributes: { target: '_blank', rel: 'noopener' }
-  }
+  // {
+  //   name: 'Disabled',
+  //   url: '/dashboard',
+  //   icon: 'icon-ban',
+  //   badge: {
+  //     variant: 'secondary',
+  //     text: 'NEW'
+  //   },
+  //   attributes: { disabled: true },
+  // },
+  // {
+  //   name: 'Download CoreUI',
+  //   url: 'http://coreui.io/angular/',
+  //   icon: 'icon-cloud-download',
+  //   class: 'mt-auto',
+  //   variant: 'success',
+  //   attributes: { target: '_blank', rel: 'noopener' }
+  // },
+  // {
+  //   name: 'Try CoreUI PRO',
+  //   url: 'http://coreui.io/pro/angular/',
+  //   icon: 'icon-layers',
+  //   variant: 'danger',
+  //   attributes: { target: '_blank', rel: 'noopener' }
+  // }
 ];
